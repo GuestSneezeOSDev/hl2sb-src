@@ -109,6 +109,9 @@
 #include <stdlib.h>
 #include <string.h>
 #include "zip/XUnzip.h"
+#include "cbase.h"
+
+#include "cbase.h"
 
 #if defined(POSIX)
 #define _tcslen strlen

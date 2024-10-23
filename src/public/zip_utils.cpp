@@ -22,6 +22,10 @@
 #include "checksum_crc.h"
 #include "byteswap.h"
 #include "utlstring.h"
+#include "cbase.h"
+
+// memdbgon must be the last include file in a .cpp file!!!
+#include "tier0/memdbgon.h"
 
 // Data descriptions for byte swapping - only needed
 // for structures that are written to file for use by the game.
